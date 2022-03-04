@@ -11,6 +11,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media only screen and (max-width: 600px) {
+  .name_heading {
+    font-size: 20px;
+  }
+}
+
 .name_head {
   background: -webkit-linear-gradient(#159957, #155799);
   -webkit-background-clip: text;
@@ -29,6 +36,12 @@
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .download_btn {
+    font-size: 12px;
+  }
+}
+
 .title_para {
   font-size: 20px;
 }
@@ -41,12 +54,19 @@
   font-weight: 600;
 }
 
+@media only screen and (max-width: 600px) {
+  .features_row > h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
+
 .feature_col {
   border-radius: 50px;
   padding: 30px 30px;
   background: rgba(255, 255, 255, 0.1);
   z-index: 0;
-  min-height: 350px;
+  min-height: 300px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
 .feature_badge {
@@ -54,6 +74,13 @@
   margin-top: -60px;
   font-size: 56px;
 }
+@media only screen and (max-width: 600px) {
+  .feature_badge{
+    font-size: 38px;
+    margin-top: -48px;
+  }
+}
+
 .step_badge {
   font-size: 48px;
   margin-top: 20px;
