@@ -1,0 +1,63 @@
+.container_content{
+    margin-left: 10%;
+}
+
+.row_content{
+    margin: 150px 0px;
+}
+
+.name_heading{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#159957, #155799);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav_heading{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.download_btn{
+    background-image: linear-gradient(to right, #159957, #155799);
+    color: white;
+}
+.download_btn:hover{
+    color: white;
+}
+
+.features_row{
+    margin: 20px 0px;
+}
+.features_row > h1{
+    font-size: 56px;
+}
+
+.feature_col{
+    border-radius: 50px;
+    padding: 30px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 0;
+    min-height: 350px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.200);
+}
+.feature_badge{
+    z-index: 1;
+    margin-top: -60px;
+    font-size: 56px;
+}
+
+.bg {
+    background-image: linear-gradient(to right,#159957, #155799);
+  }
+
+.how_to{
+    min-height: 350px;
+}
+
+.how_to_use_heading{
+    font-size: 56px;
+}
+
+.footer_heading{
+    font-weight: 600;
+}
