@@ -25,10 +25,10 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container ">
+      <div class="container">
         <a class="navbar-brand navbar_logo mx-4" href="#"
-          ><img src="./images/logo3.png" width="50px" alt="" />
-          <span class="name_heading nav_heading"> Coderly </span></a
+          ><img src="./images/logo.png" width="50px" alt="" />
+          <span class="name_head nav_heading"> Coderly </span></a
         >
         <button
           class="navbar-toggler"
@@ -45,25 +45,15 @@
         <div class="collapse navbar-collapse" id="navbar_middle_dropdowns">
           <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
-              <a href="#Aboutus" class="btn btn-light">
-                About us
-              </a>
+              <a href="#Aboutus" class="btn btn-light"> About us </a>
             </li>
 
             <li class="nav-item mx-3">
-              <a
-              href="#features" class="btn btn-light"
-              >
-                Features
-              </a>
+              <a href="#features" class="btn btn-light"> Features </a>
             </li>
 
             <li class="nav-item mx-3">
-              <a
-              href="#footer" class="btn btn-light"
-              >
-                contact us
-              </a>
+              <a href="#footer" class="btn btn-light"> Contact Us </a>
             </li>
             <li><a href="" class="btn download_btn mx-3">Download</a></li>
           </ul>
@@ -71,59 +61,65 @@
       </div>
     </nav>
 
-    <div class="container container_content">
-      <div class="row row_content d-flex align-items-center">
+    <div class="container" id="Aboutus">
+      <div
+        class="row row_content d-flex align-items-center justify-content-between"
+      >
         <div class="col-5">
-          <h1 class="name_heading">Coderly</h1>
-          <p class="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-            dolor eos? Voluptates reiciendis doloribus, ipsam expedita quisquam
-            in voluptas excepturi vitae aliquid, animi voluptatibus soluta cum
-            blanditiis exercitationem cumque repellat!
+          <h1 class="name_heading mb-4">
+            The Ultimate Code Completion Extension
+          </h1>
+          <p class="mb-4 title_para">
+            Coderly serves suggestions for code completion in your browser. No
+            downtime, no distractions.
           </p>
           <a href="" class="btn download_btn rounded-pill btn-lg"
-            >Download now</a
+            >Download Now</a
           >
+        </div>
+        <div class="col-5">
+          <img
+            src="./images/demo.png"
+            class="img-thumbnail"
+            width="500px"
+            alt=""
+          />
         </div>
       </div>
     </div>
 
     <!-- Features -->
-    <div class="bg" id="features">
-      <div class="container container_content">
-        <div class="row features_row text-white">
-          <h1 class="text-center mt-4">Features</h1>
+    <div class="bg text-center" id="features">
+      <div class="container">
+        <div class="row features_row pb-5 text-white">
+          <h1 class="text-center my-5">Features</h1>
           <div
             class="col-md-3 col-lg-3 col-xl-3 mx-auto my-4 feature_col works_on"
           >
-            <span class="feature_badge d-flex justify-content-center"
+            <span class="feature_badge d-flex justify-content-center mb-3"
               ><i class="fa-solid fa-clock-rotate-left"></i
             ></span>
-            <h1>Works on user typing history</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              repellat, molestiae voluptas .
+            <h2>Typing Style</h2>
+            <p class="title_para">
+              It shows suggestions based on your typing style.
             </p>
           </div>
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-4 feature_col">
-            <span class="feature_badge d-flex justify-content-center"
+            <span class="feature_badge d-flex justify-content-center mb-3"
               ><i class="fa-solid fa-code"></i>
             </span>
-            <h1>Supported languages</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              repellat, molestiae voluptas .
+            <h2>Supported languages</h2>
+            <p class="title_para">
+              C# <br />
+              Many more to come...
             </p>
           </div>
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-4 feature_col">
-            <span class="feature_badge d-flex justify-content-center"
+            <span class="feature_badge d-flex justify-content-center mb-3"
               ><i class="fa-solid fa-shield"></i
             ></span>
-            <h1>Privacy and protection</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              repellat, molestiae voluptas .
-            </p>
+            <h2>Privacy and protection</h2>
+            <p class="title_para">Data never stored or shared.</p>
           </div>
         </div>
       </div>
@@ -131,22 +127,31 @@
 
     <!-- How to use -->
 
-    <div class="container container_content">
+    <div class="container text-center">
       <div class="row mt-4">
-        <h1 class="text-center name_heading how_to_use_heading mt-4">
-          How to use
+        <h1 class="text-center name_heading how_to_use_heading my-4">
+          How to Use
         </h1>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 how_to">
-          <h2>Install</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-5 how_to">
+          <h2>Step 1</h2>
+          <span class="step_badge d-flex justify-content-center mb-3">
+            <i class="fa-solid fa-download"></i>
+          </span>
+          <p>Install by clicking on the download button.</p>
         </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 how_to">
-          <h2>Language</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-5 how_to">
+          <h2>Step 2</h2>
+          <span class="step_badge d-flex justify-content-center mb-3">
+            <i class="fa-solid fa-file-code"></i>
+          </span>
+          <p>Set your prefered language.</p>
         </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 how_to">
-          <h2>Platform</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-5 how_to">
+          <h2>Step 3</h2>
+          <span class="step_badge d-flex justify-content-center mb-3">
+            <i class="fa-solid fa-comment-dots"></i>
+          </span>
+          <p>Check dialouge boxes for platforms.</p>
         </div>
       </div>
     </div>
@@ -154,7 +159,7 @@
     <!-- footer -->
     <footer class="bg text-white pt-5 pb-4" id="footer">
       <div class="container text-center text-md-left">
-        <div class="row text-center text-md-left">
+        <div class="row text-center justify-content-between mx-2">
           <div class="col-md-3 col-lg-3 col-xl-3 mt-3">
             <h5 class="text-uppercase mb-4 mx-2 footer_heading">Coderly</h5>
             <p>
@@ -162,7 +167,7 @@
             </p>
           </div>
 
-          <div class="col-md-3 col-lg-3 col-xl-3 mt-3 mx-auto">
+          <div class="col-md-3 col-lg-3 col-xl-3 mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold">Write to us</h5>
             <form>
               <div class="form-group my-2">
@@ -177,7 +182,8 @@
                 <textarea
                   class="form-control"
                   id="text_ar"
-                  rows="8" cols="8"
+                  rows="8"
+                  cols="8"
                   placeholder="Enter your message here"
                 ></textarea>
               </div>
@@ -185,15 +191,17 @@
           </div>
         </div>
         <hr class="mb-4" />
-        <div class="row align-items-center justify-content-start">
-          <div class="col-md-7 col-lg-8">
+
+
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6 col-lg-4">
             <p>
-              Copyright @2022 All rights reserved by:
+              &#169;Copyright @2022 All rights reserved by:
               <strong>Crimsonwolves</strong>
             </p>
           </div>
-          <div class="col-md-5 col-lg-4">
-            <div class="text-center text-md-right">
+          <div class="col-md-3">
+            <div class="text-center">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
                   <a
