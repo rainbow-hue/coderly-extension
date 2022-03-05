@@ -1,8 +1,8 @@
 # coderly-extension
 
-Check out Coderly's hosted website [here](https://yogesh-nin.github.io/coderly/).
+[Hosted Link](https://yogesh-nin.github.io/coderly/).
 
-Your ultimate code completion extension!
+Ciderly is uour ultimate code completion extension!
 * Works for online IDE's and CP Platforms.
 * Provides instant suggestions.
 * Currently supports C++.
