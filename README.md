@@ -9,6 +9,12 @@ Coderly is your reliant online code completion extension!
 * Provides instant suggestions.
 * Currently supports C++.
 
+To Install :
+- Clone the repository
+- Go to chrome://extensions/
+- Turn on Developer mode
+- Click on Load unpacked and select the git folder
+
 This project has been submitted by **Crimsonwolves** for the **Bug Byte League '22 Hackathon**.
 
 Theme chosen: Code Completion Application
@@ -18,3 +24,5 @@ Check out the website for details!
 Team Members: [Abhineet Singh](https://github.com/rainbow-hue), [Areen Kaur](https://github.com/areenoverclouds), [Deeksha Rungta](https://github.com/deeksharungta), [Yogesh Sharma](https://github.com/Yogesh-nin).
 
 Kindly note: The extension has not been published by Chrome Store and can be downloaded only via the repository.
+
+
